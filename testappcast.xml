@@ -1,45 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>App Updates</title>
-    <link>https://yourdomain.com/appcast.xml</link>
-    <description>Latest updates available for both Android and iOS</description>
-    
-    <!-- Android Update -->
-    <item>
-      <version>2.0.0</version>
-      <shortVersion>2.0</shortVersion>
-      <build>200</build>
-      <releaseNotes><![CDATA[
-        <h2>What’s New in Version 2.0.0 (Android)</h2>
-        <ul>
-          <li>New feature A added</li>
-          <li>Improvements in feature B</li>
-          <li>Bug fixes and performance enhancements</li>
-        </ul>
-      ]]></releaseNotes>
-      <pubDate>Wed, 19 Apr 2023 12:00:00 GMT</pubDate>
-      <url>https://yourdomain.com/download/app-android.apk</url>
-      <supportedOS>android</supportedOS>
-    </item>
-
-    <!-- iOS Update -->
-    <item>
-      <version>2.0.0</version>
-      <shortVersion>2.0</shortVersion>
-      <build>200</build>
-      <releaseNotes><![CDATA[
-        <h2>What’s New in Version 2.0.0 (iOS)</h2>
-        <ul>
-          <li>New feature A added</li>
-          <li>Improvements in feature B</li>
-          <li>Bug fixes and performance enhancements</li>
-        </ul>
-      ]]></releaseNotes>
-      <pubDate>Wed, 19 Apr 2023 12:00:00 GMT</pubDate>
-      <url>https://yourdomain.com/download/app-ios.ipa</url>
-      <supportedOS>ios</supportedOS>
-    </item>
-
-  </channel>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Debt Now App - Appcast</title>
+        <item>
+            <title>Version 1.15.0</title>
+            <description>Minor updates and improvements.</description>
+            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.moonwink.treasury" sparkle:version="1.15.0" sparkle:os="android" />
+        </item>
+    </channel>
 </rss>
